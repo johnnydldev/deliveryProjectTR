@@ -13,8 +13,39 @@
 
     <!-- Main section -->
     <main-section>
-        
-        <!-- T-shirt category section -->
+
+        <!-- accessories category section -->
+        <category name="accessories">
+
+          <!-- items for women-->
+          <item name="2 Pack Western Metallic Belt Set" id="1" by="women">
+            <description>
+              <![CDATA[Cinturón de piel sintética de 1 1/8".]]>
+            </description>
+            <price>$1800</price>
+            <image>assets/img/accessories/ac-w-image-1.jpg</image>
+          </item>
+          <item name="Turquoise Western Earring" id="2" by="women">
+            <description><![CDATA[Pendiente de botón con forma de novillo de metal en relieve.]]></description>
+            <price>$1750</price>
+            <image>assets/img/accessories/ac-w-image-2.jpg</image>
+          </item>
+          <item name="Wiskey Bent" id="3" by="men">
+            <description><![CDATA[Gorra snapback con parche bordado.]]></description>
+            <price>$1550</price>
+            <image>assets/img/accessories/ac-m-image-1.jpg</image>
+          </item>
+          <item name="G shock watch" id="4" by="men">
+            <description><![CDATA[Reloj digital y analógico con fondo de caja de acero inoxidable.]]></description>
+            <price>$2000</price>
+            <image>assets/img/accessories/ac-m-image-2.jpg</image>
+          </item>
+          <!-- End items for women-->
+          
+        </category>
+      <!-- accessories category section -->
+
+      <!-- T-shirt category section -->
         <category name="t-shirt">
 
             <!-- items for women-->
@@ -23,22 +54,22 @@
                     <![CDATA[Esta playera está confeccionada con algodón orgánico de alta calidad, perfecta para quienes buscan comodidad y sostenibilidad. Su diseño clásico y colores neutrales la convierten en un básico imprescindible en cualquier guardarropa.]]>
                 </description>
                 <price>$450</price>
-                <image>assets/img/t-shirt/women/w-image-1.webp</image>
+                <image>assets/img/t-shirt/women/w-image-1.jpg</image>
             </item>
             <item name="Pinecrest" id="2" by="women">
                 <description><![CDATA[Añade un toque de estilo y personalidad a tu atuendo con esta playera de diseño estampado. Confeccionada en suave tejido de algodón, presenta un estampado único que hará que te destaques en cualquier ocasión.]]></description>
                 <price>$550</price>
-                <image>assets/img/t-shirt/women/w-image-2.webp</image>
+                <image>assets/img/t-shirt/women/w-image-2.jpg</image>
             </item>
             <item name="Rio Pullover" id="3" by="women">
                 <description><![CDATA[Ideal para tus entrenamientos y actividades al aire libre, esta playera deportiva de manga corta ofrece una excelente transpirabilidad y confort. Fabricada con material de secado rápido, te mantiene fresca y cómoda durante todo el día.]]></description>
                 <price>$630</price>
-                <image>assets/img/t-shirt/women/w-image-3.webp</image>
+                <image>assets/img/t-shirt/women/w-image-3.jpg</image>
             </item>
             <item name="Total Eclipse" id="4" by="women">
                 <description><![CDATA[Esta elegante playera es perfecta para un look casual pero sofisticado. Su ajuste relajado y su tejido suave la hacen ideal para combinar con jeans o faldas, proporcionando un estilo versátil para cualquier ocasión.]]></description>
                 <price>$450</price>
-                <image>assets/img/t-shirt/women/w-image-4.webp</image>
+                <image>assets/img/t-shirt/women/w-image-4.jpg</image>
             </item>
             <!-- End items for women-->
 
@@ -46,22 +77,22 @@
             <item name="Bass T-shirt" id="5" by="men">
                 <description><![CDATA[Esta playera de algodón con cuello redondo es el básico perfecto para cualquier guardarropa. Su tejido suave y duradero garantiza comodidad durante todo el día, mientras que su diseño simple la hace fácil de combinar con cualquier atuendo.]]></description>
                 <price>$450</price>
-                <image>assets/img/t-shirt/men/m-image-1.webp</image>
+                <image>assets/img/t-shirt/men/m-image-1.jpg</image>
             </item>
             <item name="Plaid Standard" id="6" by="men">
                 <description><![CDATA[La playera polo clásica nunca pasa de moda. Confeccionada en algodón piqué, ofrece un ajuste cómodo y un estilo atemporal. Ideal para un look casual o semiformal, es una prenda versátil para cualquier ocasión.]]></description>
                 <price>$660</price>
-                <image>assets/img/t-shirt/men/m-image-2.webp</image>
+                <image>assets/img/t-shirt/men/m-image-2.jpg</image>
             </item>
             <item name="Diablo Toro" id="7" by="men">
                 <description><![CDATA[Mantente fresco y seco con esta playera de entrenamiento de secado rápido. Su material técnico y transpirable es perfecto para tus sesiones de ejercicio, ofreciendo comodidad y rendimiento óptimos.]]></description>
                 <price>$800</price>
-                <image>assets/img/t-shirt/men/m-image-3.webp</image>
+                <image>assets/img/t-shirt/men/m-image-3.jpg</image>
             </item>
             <item name="Flannel Atletic" id="8" by="men">
                 <description><![CDATA[Añade un toque de personalidad a tu estilo con esta playera gráfica de estampado moderno. Con diseños únicos y vibrantes, está confeccionada en algodón suave para un confort inigualable y un look original.]]></description>
                 <price>$670</price>
-                <image>assets/img/t-shirt/men/m-image-4.webp</image>
+                <image>assets/img/t-shirt/men/m-image-4.jpg</image>
             </item>
             <!-- End items for men-->
 
@@ -69,22 +100,22 @@
             <item name="Harlem" id="9" by="kids">
                 <description><![CDATA[Esta encantadora playera de algodón presenta un hermoso estampado floral, perfecto para las niñas que aman la naturaleza. Su tejido suave y ligero garantiza comodidad durante todo el día, siendo ideal para cualquier ocasión.]]></description>
                 <price>$750</price>
-                <image>assets/img/t-shirt/kids/k-g-image-1.webp</image>
+                <image>assets/img/t-shirt/kids/k-g-image-1.jpg</image>
             </item>
             <item name="Star cardigan" id="10" by="kids">
                 <description><![CDATA[La magia está en el aire con esta playera de unicornio. Con un estampado vibrante y colores alegres, es perfecta para las niñas que sueñan en grande. Hecha de algodón 100%, es suave y cómoda para el uso diario.]]></description>
                 <price>$560</price>
-                <image>assets/img/t-shirt/kids/k-g-image-2.webp</image>
+                <image>assets/img/t-shirt/kids/k-g-image-2.jpg</image>
             </item>
             <item name="Sweet Land" id="11" by="kids">
                 <description><![CDATA[¡Aventura y diversión! Esta playera de superhéroes es ideal para los pequeños fans de la acción. Confeccionada en algodón suave y resistente, ofrece un ajuste cómodo y duradero para jugar todo el día.]]></description>
                 <price>$460</price>
-                <image>assets/img/t-shirt/kids/k-b-image-1.webp</image>
+                <image>assets/img/t-shirt/kids/k-b-image-1.jpg</image>
             </item>
             <item name="Millhurts" id="12" by="kids">
                 <description><![CDATA[Para los pequeños exploradores, esta playera con estampado de dinosaurios es una excelente opción. Su diseño dinámico y colores vibrantes harán que cualquier niño se sienta como un paleontólogo en acción. Fabricada en algodón suave, es perfecta para el uso diario.]]></description>
                 <price>$450</price>
-                <image>assets/img/t-shirt/kids/k-b-image-2.webp</image>
+                <image>assets/img/t-shirt/kids/k-b-image-2.jpg</image>
             </item>
             <!-- End items for kids-->
 
@@ -98,22 +129,22 @@
             <item name="Premium Baggy" id="1" by="women">
                 <description><![CDATA[Estos jeans ajustados de cintura alta realzan tu figura y ofrecen un look moderno y estilizado. Fabricados con una mezcla de algodón y elastano, proporcionan comodidad y flexibilidad para el día a día. Perfectos para combinar con camisetas, blusas o chaquetas.]]></description>
                 <price>$700</price>
-                <image>assets/img/jeans/women/w-j-image-1.webp</image>
+                <image>assets/img/jeans/women/w-j-image-1.jpg</image>
             </item>
             <item name="Wide leg stretch" id="2" by="women">
                 <description><![CDATA[Los jeans boyfriend desgastados ofrecen un estilo relajado y casual. Con su ajuste holgado y detalles desgastados, son ideales para un look desenfadado. Combínalos con una camiseta básica y unos tenis para un outfit cómodo y a la moda.]]></description>
                 <price>$450</price>
-                <image>assets/img/jeans/women/w-j-image-2.webp</image>
+                <image>assets/img/jeans/women/w-j-image-2.jpg</image>
             </item>
             <item name="Eden High" id="3" by="women">
                 <description><![CDATA[Vuelve a los años 70 con estos jeans acampanados de estilo vintage. Con un ajuste en la cadera y piernas que se ensanchan desde la rodilla, ofrecen un toque retro y elegante. Perfectos para combinar con blusas fluidas o camisetas ajustadas para un look bohemio chic.]]></description>
                 <price>$698</price>
-                <image>assets/img/jeans/women/w-j-image-3.webp</image>
+                <image>assets/img/jeans/women/w-j-image-3.jpg</image>
             </item>
             <item name="Wedgie Straight" id="4" by="women">
                 <description><![CDATA[Estos jeans negros de pierna recta son un básico versátil en cualquier guardarropa. Su diseño clásico y atemporal los hace perfectos para cualquier ocasión, desde un día en la oficina hasta una salida nocturna. Hechos de algodón elástico, garantizan comodidad y estilo en cada uso.]]></description>
                 <price>$876</price>
-                <image>assets/img/jeans/women/w-j-image-4.webp</image>
+                <image>assets/img/jeans/women/w-j-image-4.jpg</image>
             </item>
             <!-- End items for women-->
 
@@ -121,22 +152,22 @@
             <item name="Jake Straight" id="5" by="men">
                 <description><![CDATA[Estos jeans de corte recto son el clásico perfecto para cualquier ocasión. Confeccionados en denim de alta calidad, ofrecen un ajuste cómodo y una apariencia limpia. Son ideales para combinar con camisetas, camisas o chaquetas, brindando un look versátil y atemporal.]]></description>
                 <price>$987</price>
-                <image>assets/img/jeans/men/m-j-image-1.webp</image>
+                <image>assets/img/jeans/men/m-j-image-1.jpg</image>
             </item>
             <item name="Triton Slim" id="6" by="men">
                 <description><![CDATA[Los jeans ajustados de mezclilla son ideales para un look moderno y elegante. Su corte ceñido y su tejido elástico proporcionan comodidad y estilo. Perfectos para salidas nocturnas o eventos casuales, son una adición imprescindible a cualquier armario.]]></description>
                 <price>$769</price>
-                <image>assets/img/jeans/men/m-j-image-2.webp</image>
+                <image>assets/img/jeans/men/m-j-image-2.jpg</image>
             </item>
             <item name="Mason Taper" id="7" by="men">
                 <description><![CDATA[Dale un toque retro a tu vestuario con estos jeans desgastados estilo vintage. Con detalles de desgaste y un ajuste relajado, ofrecen un look desenfadado y con carácter. Ideales para combinar con camisetas y tenis para un estilo casual y auténtico.]]></description>
                 <price>$987</price>
-                <image>assets/img/jeans/men/m-j-image-3.webp</image>
+                <image>assets/img/jeans/men/m-j-image-3.jpg</image>
             </item>
             <item name="Aiden Boot" id="8" by="men">
                 <description><![CDATA[Estos jeans de pierna cónica combinan lo mejor de ambos mundos: comodidad y estilo. Su diseño se ajusta en la cadera y se estrecha hacia el tobillo, proporcionando un look moderno y sofisticado. Perfectos para usar con botas o zapatos deportivos.]]></description>
                 <price>$980</price>
-                <image>assets/img/jeans/men/m-j-image-4.webp</image>
+                <image>assets/img/jeans/men/m-j-image-4.jpg</image>
             </item>
             <!-- End items for men-->
 
@@ -144,22 +175,22 @@
             <item name="Mini Billie" id="9" by="kids">
                 <description><![CDATA[Estos jeans de corte ajustado presentan encantadores detalles florales bordados que añaden un toque de dulzura. Fabricados con un tejido suave y elástico, garantizan comodidad durante todo el día, siendo perfectos para cualquier actividad.]]></description>
                 <price>$870</price>
-                <image>assets/img/jeans/kids/k-j-g-image-1.webp</image>
+                <image>assets/img/jeans/kids/k-j-g-image-1.jpg</image>
             </item>
             <item name="Barrel Fit" id="10" by="kids">
                 <description><![CDATA[Estos jeans con apliques brillantes son ideales para las pequeñas que aman el estilo y la diversión. Con un diseño moderno y detalles que brillan, ofrecen un look único y encantador. Su ajuste cómodo los hace perfectos para usar en cualquier ocasión.]]></description>
                 <price>$600</price>
-                <image>assets/img/jeans/kids/k-j-g-image-2.webp</image>
+                <image>assets/img/jeans/kids/k-j-g-image-2.jpg</image>
             </item>
             <item name="Chaos Boot" id="11" by="kids">
                 <description><![CDATA[Diseñados para resistir las aventuras más audaces, estos jeans de mezclilla reforzada son duraderos y cómodos. Con detalles adicionales en las rodillas para mayor resistencia y un ajuste perfecto, son ideales para el uso diario.]]></description>
                 <price>$780</price>
-                <image>assets/img/jeans/kids/k-j-g-image-3.webp</image>
+                <image>assets/img/jeans/kids/k-j-g-image-3.jpg</image>
             </item>
             <item name="Hudson Straight" id="12" by="kids">
                 <description><![CDATA[Estos jeans con bolsillos cargo combinan funcionalidad y estilo. Perfectos para los niños activos, ofrecen amplios bolsillos para guardar sus tesoros mientras juegan. Su tejido resistente y cómodo asegura que puedan seguirles el ritmo en cualquier aventura.]]></description>
                 <price>$890</price>
-                <image>assets/img/jeans/kids/k-j-g-image-4.webp</image>
+                <image>assets/img/jeans/kids/k-j-g-image-4.jpg</image>
             </item>
             <!-- End items for kids-->
 
@@ -173,22 +204,22 @@
             <item name="Fringe Glitz" id="1" by="women">
                 <description><![CDATA[Esta hoodie está confeccionada con algodón orgánico, lo que la hace suave y amigable con el medio ambiente. Con un ajuste relajado y un diseño simple, es perfecta para un look casual y cómodo en cualquier momento del día.]]></description>
                 <price>$560</price>
-                <image>assets/img/hoodie/women/w-h-image-1.webp</image>
+                <image>assets/img/hoodie/women/w-h-image-1.jpg</image>
             </item>
             <item name="Asimetrical jacket" id="2" by="women">
                 <description><![CDATA[Esta hoodie con cremallera y capucha es el equilibrio perfecto entre estilo y funcionalidad. Su interior afelpado te mantendrá abrigada, mientras que los bolsillos frontales y la capucha ajustable añaden practicidad. Ideal para usar sola o en capas.]]></description>
                 <price>$980</price>
-                <image>assets/img/hoodie/women/w-h-image-2.webp</image>
+                <image>assets/img/hoodie/women/w-h-image-2.jpg</image>
             </item>
             <item name="Pieced Corduroy" id="3" by="women">
                 <description><![CDATA[Añade un toque de personalidad a tu guardarropa con esta hoodie de estampado gráfico. Confeccionada en un tejido de mezcla de algodón, ofrece un ajuste cómodo y un diseño llamativo que te permitirá destacar en cualquier ocasión.]]></description>
                 <price>$987</price>
-                <image>assets/img/hoodie/women/w-h-image-3.webp</image>
+                <image>assets/img/hoodie/women/w-h-image-3.jpg</image>
             </item>
             <item name="Ardley Sherpa" id="4" by="women">
                 <description><![CDATA[Esta hoodie oversized es sinónimo de confort absoluto. Con su corte amplio y tejido suave, es perfecta para los días de descanso o para un look desenfadado y moderno. Combínala con leggings o jeans para un outfit relajado y a la moda.]]></description>
                 <price>$689</price>
-                <image>assets/img/hoodie/women/w-h-image-4.webp</image>
+                <image>assets/img/hoodie/women/w-h-image-4.jpg</image>
             </item>
             <!-- End items for women-->
 
@@ -196,22 +227,22 @@
             <item name="Cass Puffer" id="5" by="men">
                 <description><![CDATA[Esta hoodie clásica con capucha y bolsillo frontal es perfecta para mantenerte abrigado y cómodo. Fabricada en una mezcla de algodón y poliéster, su interior afelpado ofrece una sensación de suavidad inigualable. Ideal para un look casual y relajado.]]></description>
                 <price>$890</price>
-                <image>assets/img/hoodie/men/m-h-image-1.webp</image>
+                <image>assets/img/hoodie/men/m-h-image-1.jpg</image>
             </item>
             <item name="Durham Felt" id="6" by="men">
                 <description><![CDATA[Esta hoodie con cierre completo es ideal para un estilo versátil y funcional. Su diseño con cremallera permite ajustarla a tu gusto, mientras que los bolsillos laterales proporcionan practicidad. Perfecta para días frescos o como capa adicional durante el invierno.]]></description>
                 <price>$908</price>
-                <image>assets/img/hoodie/men/m-h-image-2.webp</image>
+                <image>assets/img/hoodie/men/m-h-image-2.jpg</image>
             </item>
             <item name="Faux Leather" id="7" by="men">
                 <description><![CDATA[Mantente activo y cómodo con esta hoodie deportiva de rendimiento. Su material técnico y ligero permite una excelente transpirabilidad, mientras que el diseño moderno añade un toque de estilo atlético. Ideal para entrenamientos o actividades al aire libre.]]></description>
                 <price>$870</price>
-                <image>assets/img/hoodie/men/m-h-image-3.webp</image>
+                <image>assets/img/hoodie/men/m-h-image-3.jpg</image>
             </item>
             <item name="Antique Washed" id="8" by="men">
                 <description><![CDATA[Esta hoodie de algodón orgánico es la opción perfecta para quienes buscan confort y sostenibilidad. Con un ajuste relajado y un interior suave, es ideal para el uso diario. Además, su fabricación ecológica la convierte en una prenda amigable con el medio ambiente.]]></description>
                 <price>$956</price>
-                <image>assets/img/hoodie/men/m-h-image-4.webp</image>
+                <image>assets/img/hoodie/men/m-h-image-4.jpg</image>
             </item>
             <!-- End items for men-->
 
@@ -219,22 +250,22 @@
             <item name="Atletic Hooded" id="9" by="kids">
                 <description><![CDATA[Esta encantadora hoodie con diseño de unicornio es perfecta para las pequeñas soñadoras. Confeccionada en algodón suave, ofrece comodidad y calidez en los días fríos. Sus colores vibrantes y detalles de unicornio harán que cualquier niña se sienta mágica.]]></description>
                 <price>$860</price>
-                <image>assets/img/hoodie/kids/k-h-g-image-1.webp</image>
+                <image>assets/img/hoodie/kids/k-h-g-image-1.jpg</image>
             </item>
             <item name="Way out west" id="10" by="kids">
                 <description><![CDATA[Brilla como una estrella con esta hoodie de estampado estrellado. Su diseño divertido y acogedor, combinado con un interior afelpado, asegura que las niñas se mantengan cómodas y a la moda en cualquier ocasión.]]></description>
                 <price>$860</price>
-                <image>assets/img/hoodie/kids/k-h-g-image-2.webp</image>
+                <image>assets/img/hoodie/kids/k-h-g-image-2.jpg</image>
             </item>
             <item name="Southwestern" id="11" by="kids">
                 <description><![CDATA[Esta hoodie de superhéroes es ideal para los pequeños aventureros. Con un estampado de sus héroes favoritos, es perfecta para jugar y soñar. Fabricada en una mezcla de algodón, ofrece calidez y confort durante todo el día.]]></description>
                 <price>$986</price>
-                <image>assets/img/hoodie/kids/k-h-b-image-1.webp</image>
+                <image>assets/img/hoodie/kids/k-h-b-image-1.jpg</image>
             </item>
             <item name="Quarter zip" id="12" by="kids">
                 <description><![CDATA[Esta clásica hoodie con capucha y bolsillo frontal es ideal para cualquier niño activo. Su diseño práctico y su interior suave garantizan comodidad mientras juegan, estudian o simplemente se relajan en casa.]]></description>
                 <price>$986</price>
-                <image>assets/img/hoodie/kids/k-h-b-image-2.webp</image>
+                <image>assets/img/hoodie/kids/k-h-b-image-2.jpg</image>
             </item>
             <!-- End items for kids-->
 
