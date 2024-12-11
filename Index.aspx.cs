@@ -36,7 +36,7 @@ namespace ClothesShop
                 "xml/database.xml";
 
             string xsltPath = ConfigurationManager.AppSettings["FileServer"].ToString() +
-                "xslt/IndexTemplate.xslt";
+                "xslt/oldTemplate.xslt";
 
             XmlTextReader xmlTextReader = new XmlTextReader(xmlPath);
 
