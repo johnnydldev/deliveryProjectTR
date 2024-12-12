@@ -11,6 +11,7 @@
         <menu-item url="/Index.aspx?id=6" text="Contacto" id="6"></menu-item>
         <menu-item url="/Index.aspx?id=7" text="About" id="7"></menu-item>
         <menu-item url="/Index.aspx?id=8" text="Nuestra tienda" id="8"></menu-item>
+        <menu-item url="/Index.aspx?id=9" text="Mini juego" id="9"></menu-item>
       
     </main-menu>
     <!-- End main menu section -->

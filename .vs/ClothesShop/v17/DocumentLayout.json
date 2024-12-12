@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|c:\\users\\tr network\\documents\\cursos\\tr network\\semana uno\\actividades\\proyecto frontend\\proyecto uno\\clothesshop\\xslt\\oldtemplate.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:xslt\\oldtemplate.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|c:\\users\\tr network\\documents\\cursos\\tr network\\semana uno\\actividades\\proyecto frontend\\proyecto uno\\clothesshop\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|c:\\users\\tr network\\documents\\cursos\\tr network\\semana uno\\actividades\\proyecto frontend\\proyecto uno\\clothesshop\\js\\myconnectionapigoogle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:js\\myconnectionapigoogle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|c:\\users\\tr network\\documents\\cursos\\tr network\\semana uno\\actividades\\proyecto frontend\\proyecto uno\\clothesshop\\xslt\\oldtemplate.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:xslt\\oldtemplate.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\showmessage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:js\\showmessage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\puzzle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:js\\puzzle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\css\\puzzle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:css\\puzzle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\xml\\database.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -30,63 +38,88 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\css\\style.css",
               "RelativeDocumentMoniker": "css\\style.css",
               "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\css\\style.css",
               "RelativeToolTip": "css\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALMCAAAAAAAAAAAAAJkCAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-11T21:53:17.442Z",
+              "WhenOpened": "2024-12-12T16:11:13.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "puzzle.css",
+              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\css\\puzzle.css",
+              "RelativeDocumentMoniker": "css\\puzzle.css",
+              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\css\\puzzle.css",
+              "RelativeToolTip": "css\\puzzle.css",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-12T15:42:12.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "puzzle.js",
+              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\puzzle.js",
+              "RelativeDocumentMoniker": "js\\puzzle.js",
+              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\puzzle.js",
+              "RelativeToolTip": "js\\puzzle.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-12T05:15:56.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MyConnectionAPIGoogle.js",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\MyConnectionAPIGoogle.js",
-              "RelativeDocumentMoniker": "js\\MyConnectionAPIGoogle.js",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\MyConnectionAPIGoogle.js",
-              "RelativeToolTip": "js\\MyConnectionAPIGoogle.js",
-              "ViewState": "AgIAAFAAAAAAAAAAAAA1wEAAAAASAAAAAAAAAA==",
+              "Title": "showMessage.js",
+              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\showMessage.js",
+              "RelativeDocumentMoniker": "js\\showMessage.js",
+              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\js\\showMessage.js",
+              "RelativeToolTip": "js\\showMessage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-11T19:53:44.063Z",
+              "WhenOpened": "2024-12-12T04:56:44.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "oldTemplate.xslt",
               "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\xslt\\oldTemplate.xslt",
               "RelativeDocumentMoniker": "xslt\\oldTemplate.xslt",
               "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\xslt\\oldTemplate.xslt",
               "RelativeToolTip": "xslt\\oldTemplate.xslt",
-              "ViewState": "AgIAAPsCAAAAAAAAAAAywOMBAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0CAAAAAAAAAAAAAC4DAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003586|",
               "WhenOpened": "2024-12-10T22:09:39.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "database.xml",
               "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\xml\\database.xml",
               "RelativeDocumentMoniker": "xml\\database.xml",
               "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\xml\\database.xml",
               "RelativeToolTip": "xml\\database.xml",
-              "ViewState": "AgIAABEBAAAAAAAAAAAAACIBAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-12-07T04:16:45.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T04:16:45.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.aspx.cs",
               "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\Proyecto frontend\\Proyecto Uno\\ClothesShop\\Index.aspx.cs",
               "RelativeDocumentMoniker": "Index.aspx.cs",
@@ -94,8 +127,7 @@
               "RelativeToolTip": "Index.aspx.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAxwDAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T04:02:12.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T04:02:12.745Z"
             }
           ]
         }

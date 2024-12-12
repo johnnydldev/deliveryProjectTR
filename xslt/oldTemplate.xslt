@@ -63,6 +63,11 @@
 
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWeeateTaYGqsHhNcmoDfT7Us-vLDZVPs&amp;callback=initMap" async="" defer=""></script>
 
+            <link href="css/puzzle.css" rel="stylesheet" type="text/css"></link>
+            <script src="js/showMessage.js"></script>
+            
+            <!-- Import of JQuery from google API-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
           </head>
 
@@ -207,7 +212,7 @@
             <!-- Carousel End -->
 
             <!-- Ofertas sección -->
-        <div class="container-fluid service py-5 bg-light">
+            <div class="container-fluid service py-5 bg-light">
             <div class="container py-5">
 
                 <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -246,9 +251,9 @@
                 </div>
             </div>
         </div>
-        <!-- Services End -->
+            <!-- Services End -->
           
-          <!-- Women section -->
+            <!-- Women section -->
             <section id="Mujeres">
 
               <div class="container-fluid donation py-5">
@@ -527,7 +532,7 @@
              <!-- Kids section -->
             <section id="Kids">
 
-              <div class="container-fluid donation py-5">
+              <div class="container-fluid py-5">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -699,8 +704,8 @@
             <!-- End nuestra tienda -->
             
             
-        <!-- Contacto -->
-        <section id="Contacto">
+            <!-- Contacto -->
+            <section id="Contacto">
 
          <!-- Contact Start -->
         <div class="container-fluid bg-light py-5">
@@ -781,14 +786,15 @@
                                     <text id="direction"></text>
                                     <div class="col-lg-12 margin-bottom-30" id="street" style="height: 400px; width: 100%;"></div>
                                   </div>
+                                  
                                   <!--
                                     <div class="col-lg-12" id="map">
-                                      
                                       
                                         <iframe class="w-100" style="height: 412px; margin-bottom: -6px;" src=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     
                                     </div>
                                   -->
+                                  
                                 </div>
                             </div>
                         </div>
@@ -799,13 +805,59 @@
         <!-- Contact End -->
 
         </section>
-        <!-- Contacto End -->
+            <!-- Contacto End -->
 
 
+            <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+              <h3 class="text-uppercase text-primary">Mini juego</h3>
+              <h5 class="mb-0">Puzzle</h5>
+            </div>
+
+            <!-- Mini juego section -->
+            <section id="Mini juego">
+
+
+              <button id="resetBut">Reset</button>
+
+              <header id="headLine">
+                
+                <p>solve the puzzle</p>
+                
+              </header>
+
+              <section id="game-boards">
+                
+                <!-- these are the draggable pieces -->
+                <div class="puzzle-pieces">
+                  
+                  <img id="img-br" src="img/puzzle/big_sale_bottom_right.jpg" class="puzzle-image" alt="bottom right"></img>
+                  <img id="img-tl" src="img/puzzle/big_sale_top_left.jpg" class="puzzle-image" alt="top left"></img>
+                  <img id="img-bl" src="img/puzzle/big_sale_bottom_left.jpg" class="puzzle-image" alt="bottom left"></img>
+                  <img id="img-tr" src="img/puzzle/big_sale_top_right.jpg" class="puzzle-image" alt="top right"></img>
+
+                </div>
+                
+                <!-- these are the drop zones -->
+                <div class="puzzle-board">
+                  
+                  <div class="drop-zone tl" id="dz-tl"></div>
+                  <div class="drop-zone tr" id="dz-tr"></div>
+                  <div class="drop-zone bl" id="dz-bl"></div>
+                  <div class="drop-zone br" id="dz-br"></div>
+                  
+                </div>
+                
+              </section>
+
+            </section>
+            <!-- End mini juego section -->
+
+            
             <!-- Footer Start -->
             <div class="container-fluid footer bg-dark text-body py-5">
               <div class="container py-5">
                 <div class="row g-5">
+                  
                   <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item">
                       <h4 class="mb-4 text-white">Newsletter</h4>
@@ -816,9 +868,11 @@
                         </div>
                     </div>
                   </div>
+                  
                   <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                       <h4 class="mb-4 text-white">Our Services</h4>
+                      
                       <a href="">
                         <i class="fas fa-angle-right me-2"></i> Ocean Turtle
                       </a>
@@ -837,6 +891,7 @@
                       <a href="">
                         <i class="fas fa-angle-right me-2"></i> Present for You
                       </a>
+                      
                     </div>
                   </div>
                   <div class="col-md-6 col-lg-6 col-xl-3">
@@ -998,6 +1053,14 @@
             <script src="js/GetMessage.js"></script>
             <script type="text/javascript" src="js/MyConnectionAPIGoogle.js"></script>
            
+            <!-- Minijuego script -->
+            <script src="js/puzzle.js"></script>
+            <!-- End minijuego script -->
+
+
+            <script src="js/showMessage.js"></script>
+
+
           </body>
 
         </html>

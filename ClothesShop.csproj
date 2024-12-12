@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\puzzle.css" />
     <Content Include="css\style.css" />
     <Content Include="files\audio\BohemianGarden.mp3" />
     <Content Include="files\video\tourClothesShop.mp4" />
@@ -76,6 +77,8 @@
     <Content Include="img\accessories\ac-m-image-2.jpg" />
     <Content Include="img\accessories\ac-w-image-1.jpg" />
     <Content Include="img\accessories\ac-w-image-2.jpg" />
+    <Content Include="img\backgrounds\certificate_get_discount.jpg" />
+    <Content Include="img\backgrounds\hot_sale.jpg" />
     <Content Include="img\blog-1.jpg" />
     <Content Include="img\blog-2.jpg" />
     <Content Include="img\blog-3.jpg" />
@@ -131,6 +134,14 @@
     <Content Include="img\jeans\women\w-j-image-4.jpg" />
     <Content Include="img\posters\black-sale.png" />
     <Content Include="img\posters\poster.png" />
+    <Content Include="img\puzzle\big_sale_bottom_left.jpg" />
+    <Content Include="img\puzzle\big_sale_bottom_right.jpg" />
+    <Content Include="img\puzzle\big_sale_top_left.jpg" />
+    <Content Include="img\puzzle\big_sale_top_right.jpg" />
+    <Content Include="img\puzzle\certified_bottom_left.jpg" />
+    <Content Include="img\puzzle\certified_bottom_right.jpg" />
+    <Content Include="img\puzzle\certified_top_left.jpg" />
+    <Content Include="img\puzzle\certified_top_right.jpg" />
     <Content Include="img\service-1.jpg" />
     <Content Include="img\service-2.jpg" />
     <Content Include="img\service-3.jpg" />
@@ -156,6 +167,8 @@
     <Content Include="js\GetMessage.js" />
     <Content Include="js\main.js" />
     <Content Include="js\MyConnectionAPIGoogle.js" />
+    <Content Include="js\puzzle.js" />
+    <Content Include="js\showMessage.js" />
     <Content Include="lib\counterup\counterup.min.js" />
     <Content Include="lib\easing\easing.js" />
     <Content Include="lib\easing\easing.min.js" />
@@ -176,6 +189,7 @@
     <Content Include="lib\owlcarousel\owl.carousel.js" />
     <Content Include="lib\owlcarousel\owl.carousel.min.js" />
     <Content Include="lib\waypoints\waypoints.min.js" />
+    <Content Include="screenshots\final_view.png" />
     <Content Include="Web.config" />
     <Content Include="xml\database.xml" />
     <Content Include="xslt\IndexTemplate.xslt">

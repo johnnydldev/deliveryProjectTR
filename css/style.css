@@ -16,8 +16,8 @@ audio {
     visibility: visible;
     opacity: 1;
 }
-/*** Spinner End ***/
 
+/*** Spinner End ***/
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -85,6 +85,7 @@ audio {
     color: var(--bs-secondary) !important;
 }
 /*** Topbar Start ***/
+
 .fixed-top .container {
     transition: 0.5s;
 }
@@ -654,15 +655,15 @@ audio {
     transition: 0.5s;
 }
 
-.volunteer .volunteer-img:hover .volunteer-title {
+.volunteer, .volunteer-img:hover, .volunteer-title {
     background: rgba(0, 0, 0, .5);
 }
 
-.volunteer .volunteer-img img {
+.volunteer, .volunteer-img, img {
     transition: 0.5s;
 }
 
-.volunteer .volunteer-img:hover img {
+.volunteer, .volunteer-img:hover, img {
     transform: scale(1.2);
 }
 /*** Volunteer End ***/
@@ -687,32 +688,32 @@ audio {
     border-style: dotted;
     border-color: var(--bs-light);
 }
-.footer .footer-item a,
-.footer .footer-item p {
+.footer, .footer-item a,
+.footer, .footer-item p {
     line-height: 35px;
     color: var(--bs-body);
     transition: 0.5s;
 }
 
-.footer .footer-item a:hover {
+.footer, .footer-item a:hover {
     color: var(--bs-primary);
     letter-spacing: 1px;
 }
 
-.footer .footer-item .footer-gallery {
+.footer, .footer-item, .footer-gallery {
     position: relative;
     overflow: hidden;
 }
 
-.footer .footer-item .footer-gallery img {
+.footer, .footer-item, .footer-gallery, img {
     transition: 0.5s;
 }
 
-.footer .footer-item .footer-gallery:hover img {
+.footer, .footer-item, .footer-gallery:hover, img {
     transform: scale(1.2);
 }
 
-.footer .footer-item .footer-gallery .footer-search-icon {
+.footer, .footer-item, .footer-gallery, .footer-search-icon {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -725,7 +726,7 @@ audio {
     opacity: 0;
 }
 
-.footer .footer-item .footer-gallery:hover .footer-search-icon {
+.footer, .footer-item, .footer-gallery:hover, .footer-search-icon {
     opacity: 1;
     background: rgba(0, 0, 0, .6);
 }
@@ -736,4 +737,8 @@ audio {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     background: var(--bs-dark) !important;
 }
+
 /*** copyright end ***/
+body{
+    background-color: white;
+}

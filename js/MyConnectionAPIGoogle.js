@@ -4,6 +4,7 @@ console.log("Hola desde google");
 $(document).ready(function () {
     getLocation();
 });
+
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showLocation, showError);
@@ -11,7 +12,6 @@ function getLocation() {
         alert("La geolocalización no es soportada por este navegador");
     }
 }
-
 
 //Function to show location (if these is got)
 
