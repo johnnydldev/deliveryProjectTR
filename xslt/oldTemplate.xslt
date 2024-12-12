@@ -532,7 +532,7 @@
              <!-- Kids section -->
             <section id="Kids">
 
-              <div class="container-fluid py-5">
+              <div class="container-fluid donation py-5">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -739,6 +739,7 @@
                                 </div>
                             </form>
                         </div>
+                      
                         <div class="col-xl-7">
                             <div>
                                 <div class="row g-4">
