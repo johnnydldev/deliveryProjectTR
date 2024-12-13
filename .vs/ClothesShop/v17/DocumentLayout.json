@@ -1,34 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\",
+  "WorkspaceRootPath": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\xslt\\oldtemplate.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\xslt\\oldtemplate.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:xslt\\oldtemplate.xslt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|c:\\users\\tr network\\documents\\cursos\\tr network\\semana uno\\actividades\\clothesshop\\deliveryprojecttr\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|c:\\users\\johnnydl\\documents\\cursos\\tr network\\actividades\\deliveryprojecttr\\js\\google.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:js\\google.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\js\\showmessage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:js\\showmessage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\js\\puzzle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:js\\puzzle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\css\\puzzle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:css\\puzzle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\xml\\database.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:xml\\database.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\xml\\database.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6898138-D23A-494A-9DE3-2D54CB44005A}|ClothesShop.csproj|solutionrelative:xml\\database.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,91 +26,55 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\css\\style.css",
-              "RelativeDocumentMoniker": "css\\style.css",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\css\\style.css",
-              "RelativeToolTip": "css\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkCAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T16:11:13.577Z",
+              "Title": "google.js",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\js\\google.js",
+              "RelativeDocumentMoniker": "js\\google.js",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\js\\google.js",
+              "RelativeToolTip": "js\\google.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-13T03:23:45.421Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "puzzle.css",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\css\\puzzle.css",
-              "RelativeDocumentMoniker": "css\\puzzle.css",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\css\\puzzle.css",
-              "RelativeToolTip": "css\\puzzle.css",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T15:42:12.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "puzzle.js",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\js\\puzzle.js",
-              "RelativeDocumentMoniker": "js\\puzzle.js",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\js\\puzzle.js",
-              "RelativeToolTip": "js\\puzzle.js",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywBEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-12T05:15:56.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "showMessage.js",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\js\\showMessage.js",
-              "RelativeDocumentMoniker": "js\\showMessage.js",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\js\\showMessage.js",
-              "RelativeToolTip": "js\\showMessage.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-12T04:56:44.922Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "oldTemplate.xslt",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\xslt\\oldTemplate.xslt",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\xslt\\oldTemplate.xslt",
               "RelativeDocumentMoniker": "xslt\\oldTemplate.xslt",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\xslt\\oldTemplate.xslt",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\xslt\\oldTemplate.xslt",
               "RelativeToolTip": "xslt\\oldTemplate.xslt",
-              "ViewState": "AgIAAIgBAAAAAAAAAAAAADADAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0CAAAAAAAAAAAAAKcCAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003586|",
               "WhenOpened": "2024-12-10T22:09:39.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "database.xml",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\xml\\database.xml",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\xml\\database.xml",
               "RelativeDocumentMoniker": "xml\\database.xml",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\xml\\database.xml",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\xml\\database.xml",
               "RelativeToolTip": "xml\\database.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2024-12-07T04:16:45.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Index.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\Index.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\Index.aspx.cs",
               "RelativeDocumentMoniker": "Index.aspx.cs",
-              "ToolTip": "C:\\Users\\TR Network\\Documents\\Cursos\\TR Network\\Semana Uno\\Actividades\\ClothesShop\\deliveryProjectTR\\Index.aspx.cs",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Cursos\\TR Network\\Actividades\\deliveryProjectTR\\Index.aspx.cs",
               "RelativeToolTip": "Index.aspx.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAxwDAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA3wDIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T04:02:12.745Z"
             }

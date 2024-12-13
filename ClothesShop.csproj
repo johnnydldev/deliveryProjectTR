@@ -165,6 +165,8 @@
     <Content Include="img\volunteers-bg.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="js\GetMessage.js" />
+    <Content Include="js\google.js" />
+    <Content Include="js\jquery-1.11.2.min.js" />
     <Content Include="js\main.js" />
     <Content Include="js\MyConnectionAPIGoogle.js" />
     <Content Include="js\puzzle.js" />

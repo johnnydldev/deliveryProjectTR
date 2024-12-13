@@ -6,35 +6,37 @@
 
       <!-- Main Template-->
       <xsl:template match="main">
-        
+
         <html lang="en">
 
           <head>
+            
             <meta charset="utf-8"></meta>
-              <title><![CDATA[Environs - Environmental & Nature Website Template]]></title>
+            <title><![CDATA[Environs - Environmental & Nature Website Template]]></title>
+            <meta charset="utf-8"></meta>
             <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
             <meta content="" name="keywords"></meta>
             <meta content="" name="description"></meta>
 
-                    <!-- Google Web Fonts -->
-                      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-                      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""></link>
+            <!-- Google Web Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""></link>
 
-                          <!-- Icon Font Stylesheet -->
-                          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-                          <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+            <!-- Icon Font Stylesheet -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"></link>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"></link>
 
-                            <!-- Libraries Stylesheet -->
-                            <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
-                              <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"/>
+            <!-- Libraries Stylesheet -->
+            <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"></link>
+            <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet"></link>
 
 
-                                <!-- Customized Bootstrap Stylesheet -->
-                              <link href="css/bootstrap.min.css" rel="stylesheet"></link>
+            <!-- Customized Bootstrap Stylesheet -->
+            <link href="css/bootstrap.min.css" rel="stylesheet"></link>
 
-                                  <!-- Template Stylesheet -->
-                              <link href="css/style.css" rel="stylesheet"></link>
-
+            <!-- Template Stylesheet -->
+            <link href="css/style.css" rel="stylesheet"></link>
+            
             <!-- Import of get message script -->
             <script type="module" src="js/GetMessage.js"></script>
 
@@ -44,7 +46,7 @@
               function initMap() {
               // Asegúrate de que aquí inicializas el mapa correctamente
               const mapOptions = {
-              center: { lat: 19.06861682352695, lgt: -98.17162251698159 },  // Cambia estas coordenadas por las deseadas
+              center: { lat: 19.07154377793228, lgt: -98.22515478523921 },  // Cambia estas coordenadas por las deseadas
               zoom: 8
               };
               const map = new google.maps.Map(document.getElementById('map'), mapOptions);
@@ -68,18 +70,16 @@
             
             <!-- Import of JQuery from google API-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+          
           </head>
-
           <body>
-
+                
             <!-- Spinner Start -->
             <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
               <div class="spinner-grow text-primary" role="status"></div>
             </div>
             <!-- Spinner End -->
-
-
+            
             <!-- Navbar start -->
             <div class="container-fluid fixed-top px-0" >
               <div class="container px-0">
@@ -125,8 +125,7 @@
               </div>
             </div>
             <!-- Navbar End -->
-
-
+            
             <!-- Carousel Start -->
             <div class="container-fluid carousel-header vh-100 px-0" id="Home">
               <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -210,8 +209,8 @@
               </div>
             </div>
             <!-- Carousel End -->
-
-            <!-- Ofertas sección -->
+            
+             <!-- Ofertas sección -->
             <div class="container-fluid service py-5 bg-light">
             <div class="container py-5">
 
@@ -233,42 +232,88 @@
                                   <a href="" class="h4 mb-0">Buy</a>
                               </div>
 
-                          </div>
-                          <p class="my-4">
-                            <xsl:value-of select="@name"/>
-                          </p>
+                            </div>
+                            <p class="my-4">
+                              <xsl:value-of select="@name"/>
+                            </p>
 
+                        </div>
+
+                      </xsl:for-each>
+                      
+                      <div class="col-12">
+                          <div class="d-flex align-items-center justify-content-center">
+                              <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="">Read More</a>
+                          </div>
                       </div>
 
-                    </xsl:for-each>
-                    
-                    <div class="col-12">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="">Read More</a>
-                        </div>
-                    </div>
-
-                </div>
+                  </div>
+              </div>
             </div>
-        </div>
             <!-- Services End -->
-          
+            
             <!-- Women section -->
             <section id="Mujeres">
 
-              <div class="container-fluid donation py-5">
-                <div class="container py-5">
+                <div class="container-fluid donation bg-light">
+                    <div class="container py-5">
 
-                  <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                    <h3 class="text-uppercase text-primary">Mujeres</h3>
-                    <h5 class="mb-0">T-shirt</h5>
-                  </div>
+                      <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                        <h3 class="text-uppercase text-primary">Mujeres</h3>
+                        <h5 class="mb-0">T-shirt</h5>
+                      </div>
 
-                    <div class="row g-4">
+                      <div class="row g-4">
 
-                         <xsl:for-each select="main-section/category[@name = 't-shirt']/item[@by = 'women']">
+                          <xsl:for-each select="main-section/category[@name = 't-shirt']/item[@by = 'women']">
 
-                          <div class="col-lg-4">
+                            <div class="col-lg-4">
+              
+                                  <div class="donation-item">
+                                    <img src="{image}" class="img-fluid w-100" alt="Image"></img>
+                                    <div class="donation-content d-flex flex-column">
+                                      <h5 class="text-uppercase text-primary mb-4">
+                                        <xsl:value-of select="@name"/>
+                                      </h5>
+                                      <a href="#" class="btn-hover-color display-6 text-white"></a>
+                                      <h4 class="text-white mb-4">
+                                        <xsl:value-of select="price"/>
+                                      </h4>
+                                      <p class="text-white mb-4">
+                                        <xsl:value-of select="description"/>
+                                      </p>
+
+                                      <div class="donation-btn d-flex align-items-center justify-content-start">
+                                        <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="">Buy</a>
+                                      </div>
+
+                                    </div>
+
+                                  </div>
+
+                            </div>
+
+                          </xsl:for-each>
+
+                      </div>
+
+                    </div>
+
+                </div>
+
+                <div class="container-fluid donation py-5 bg-light">
+                  <div class="container py-5">
+
+                    <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                      <h3 class="text-uppercase text-primary">Mujeres</h3>
+                      <h5 class="mb-0">Hoodie</h5>
+                    </div>
+
+                      <div class="row g-4">
+
+                        <xsl:for-each select="main-section/category[@name = 'hoodie']/item[@by = 'women']">
+
+                              <div class="col-lg-4">
             
                                 <div class="donation-item">
                                   <img src="{image}" class="img-fluid w-100" alt="Image"></img>
@@ -295,22 +340,22 @@
 
                         </xsl:for-each>
 
-                    </div>
+                      </div>
 
-                </div>
-              </div>
-
-              <div class="container-fluid donation py-5">
-                <div class="container py-5">
-
-                  <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                    <h3 class="text-uppercase text-primary">Mujeres</h3>
-                    <h5 class="mb-0">Hoodie</h5>
                   </div>
+                </div>
+
+                <div class="container-fluid donation py-5 bg-light">
+                  <div class="container py-5">
+
+                    <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                      <h3 class="text-uppercase text-primary">Mujeres</h3>
+                      <h5 class="mb-0">Jeans</h5>
+                    </div>
 
                     <div class="row g-4">
 
-                         <xsl:for-each select="main-section/category[@name = 'hoodie']/item[@by = 'women']">
+                        <xsl:for-each select="main-section/category[@name = 'jeans']/item[@by = 'women']">
 
                           <div class="col-lg-4">
             
@@ -333,68 +378,26 @@
                                     </div>
 
                                   </div>
+
                                 </div>
 
-                              </div>
+                          </div>
 
                         </xsl:for-each>
 
                     </div>
 
-                </div>
-              </div>
-
-            <div class="container-fluid donation py-5">
-                <div class="container py-5">
-
-                  <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                    <h3 class="text-uppercase text-primary">Mujeres</h3>
-                    <h5 class="mb-0">Jeans</h5>
                   </div>
 
-                    <div class="row g-4">
-
-                         <xsl:for-each select="main-section/category[@name = 'jeans']/item[@by = 'women']">
-
-                          <div class="col-lg-4">
-            
-                                <div class="donation-item">
-                                  <img src="{image}" class="img-fluid w-100" alt="Image"></img>
-                                  <div class="donation-content d-flex flex-column">
-                                    <h5 class="text-uppercase text-primary mb-4">
-                                      <xsl:value-of select="@name"/>
-                                    </h5>
-                                    <a href="#" class="btn-hover-color display-6 text-white"></a>
-                                    <h4 class="text-white mb-4">
-                                      <xsl:value-of select="price"/>
-                                    </h4>
-                                    <p class="text-white mb-4">
-                                      <xsl:value-of select="description"/>
-                                    </p>
-
-                                    <div class="donation-btn d-flex align-items-center justify-content-start">
-                                      <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="">Buy</a>
-                                    </div>
-
-                                  </div>
-                                </div>
-
-                              </div>
-
-                        </xsl:for-each>
-
-                    </div>
-
                 </div>
-              </div>
 
             </section>
             <!-- Women End -->
-
+            
             <!-- Men section -->
             <section id="Hombres">
 
-              <div class="container-fluid donation py-5">
+              <div class="container-fluid donation py-5 bg-light">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -438,7 +441,7 @@
                 </div>
               </div>
 
-              <div class="container-fluid donation py-5">
+              <div class="container-fluid donation py-5 bg-light">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -482,7 +485,7 @@
                 </div>
               </div>
 
-            <div class="container-fluid donation py-5">
+            <div class="container-fluid donation py-5 bg-light">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -532,7 +535,7 @@
              <!-- Kids section -->
             <section id="Kids">
 
-              <div class="container-fluid donation py-5">
+              <div class="container-fluid donation py-5 bg-light">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -576,7 +579,7 @@
                 </div>
               </div>
 
-              <div class="container-fluid donation py-5">
+              <div class="container-fluid donation py-5 bg-light">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -620,7 +623,7 @@
                 </div>
               </div>
 
-            <div class="container-fluid donation py-5">
+            <div class="container-fluid donation py-5 bg-light">
                 <div class="container py-5">
 
                   <div class="text-center mx-auto pb-5" style="max-width: 800px;">
@@ -674,7 +677,7 @@
               <br></br>
               <br></br>
 
-              <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+              <div class="text-center mx-auto pb-5 bg-light" style="max-width: 800px;">
                 <h3 class="text-uppercase text-primary">Now</h3>
                 <h5 class="mb-0">Best sales</h5>
               </div>
@@ -704,8 +707,8 @@
             <!-- End nuestra tienda -->
             
             
-            <!-- Contacto -->
-            <section id="Contacto">
+        <!-- Contacto -->
+        <section id="Contacto">
 
          <!-- Contact Start -->
         <div class="container-fluid bg-light py-5">
@@ -803,19 +806,16 @@
                 </div>
             </div>
         </div>
+        </section>
         <!-- Contact End -->
 
-        </section>
-            <!-- Contacto End -->
-
-
-            <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+            <div class="text-center mx-auto pb-5 bg-light" style="max-width: 800px;">
               <h3 class="text-uppercase text-primary">Mini juego</h3>
               <h5 class="mb-0">Puzzle</h5>
             </div>
 
             <!-- Mini juego section -->
-            <section id="Mini juego">
+            <section id="Mini juego" >
 
 
               <button id="resetBut">Reset</button>
@@ -852,7 +852,6 @@
 
             </section>
             <!-- End mini juego section -->
-
             
             <!-- Footer Start -->
             <div class="container-fluid footer bg-dark text-body py-5">
@@ -989,56 +988,43 @@
               </div>
             </div>
             <!-- Footer End -->
-
-
+            
             <!-- Copyright Start -->
             <div class="container-fluid copyright py-4">
-              <div class="container">
-                <div class="row g-4 align-items-center">
-                  <div class="col-md-4 text-center text-md-start mb-md-0">
-                    <span class="text-body">
-                      <a href="#">
-                        <i class="fas fa-copyright text-light me-2"></i>Your Site Name
-                      </a>, All right reserved.
-                    </span>
-                  </div>
-                  <div class="col-md-4 text-center">
-                    <div class="d-flex align-items-center justify-content-center">
-                      <a href="#" class="btn-hover-color btn-square text-white me-2">
-                        <i class="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#" class="btn-hover-color btn-square text-white me-2">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                      <a href="#" class="btn-hover-color btn-square text-white me-2">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                      <a href="#" class="btn-hover-color btn-square text-white me-2">
-                        <i class="fab fa-pinterest"></i>
-                      </a>
-                      <a href="#" class="btn-hover-color btn-square text-white me-0">
-                        <i class="fab fa-linkedin-in"></i>
-                      </a>
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-4 text-center text-md-start mb-md-0">
+                            <span class="text-body"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-pinterest"></i></a>
+                                <a href="#" class="btn-hover-color btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center text-md-end text-body">
+                            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                            Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                        </div>
+
                     </div>
-                  </div>
-                  <div class="col-md-4 text-center text-md-end text-body">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
-                  </div>
                 </div>
-              </div>
+
             </div>
             <!-- Copyright End -->
 
 
             <!-- Back to Top -->
-            <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top">
-              <i class="fa fa-arrow-up"></i>
-            </a>
+            <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
-
+        
+            
+          
             <!-- JavaScript Libraries -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -1047,25 +1033,18 @@
             <script src="lib/counterup/counterup.min.js"></script>
             <script src="lib/owlcarousel/owl.carousel.min.js"></script>
             <script src="lib/lightbox/js/lightbox.min.js"></script>
-
+        
 
             <!-- Template Javascript -->
             <script src="js/main.js"></script>
-            <script src="js/GetMessage.js"></script>
-            <script type="text/javascript" src="js/MyConnectionAPIGoogle.js"></script>
-           
-            <!-- Minijuego script -->
+            <script src="js/jquery-1.11.2.min.js"></script>
             <script src="js/puzzle.js"></script>
-            <!-- End minijuego script -->
-
-
-            <script src="js/showMessage.js"></script>
-
-
+            <script src="js/google.js"></script>
+            <link href="css/puzzle.css" rel="style"></link>
+        
           </body>
-
+        
         </html>
-      
      
       </xsl:template>
 
