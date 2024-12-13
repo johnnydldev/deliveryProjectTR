@@ -755,7 +755,7 @@
                               <div class="bg-white p-4">
                                 <i class="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
                                 <h4>Address</h4>
-                                <p class="mb-0">
+                                <p class="mb-0 text-warning">
                                   <xsl:value-of select="branch-info/place/."/>
                                 </p>
                               </div>
@@ -765,7 +765,7 @@
                               <div class="bg-white p-4">
                                 <i class="fas fa-envelope fa-2x text-primary mb-2"></i>
                                 <h4>Mail Us</h4>
-                                <p class="mb-0">
+                                <p class="mb-0 text-warning">
                                   <xsl:value-of select="branch-info/email/."/>
                                 </p>
                               </div>
@@ -775,7 +775,7 @@
                               <div class="bg-white p-4">
                                 <i class="fa fa-phone-alt fa-2x text-primary mb-2"></i>
                                 <h4>Telephone</h4>
-                                <p class="mb-0">
+                                <p class="mb-0 text-warning">
                                   <xsl:value-of select="branch-info/telephone/."/>
                                 </p>
                               </div>
@@ -792,7 +792,7 @@
                               <div id="google-map">
                                 <div id="map"></div>
                               </div>
-                              <text id="direction"></text>
+                              <!--<text id="direction"></text>-->
                               <div class="col-lg-12 margin-bottom-30" id="street" style="height: 400px; width: 100%;"></div>
                             </div>
                             
