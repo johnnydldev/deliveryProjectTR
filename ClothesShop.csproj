@@ -70,8 +70,6 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\puzzle.css" />
     <Content Include="css\style.css" />
-    <Content Include="files\audio\BohemianGarden.mp3" />
-    <Content Include="files\video\tourClothesShop.mp4" />
     <Content Include="img\about-1.jpg" />
     <Content Include="img\accessories\ac-m-image-1.jpg" />
     <Content Include="img\accessories\ac-m-image-2.jpg" />
@@ -164,7 +162,6 @@
     <Content Include="img\volunteers-4.jpg" />
     <Content Include="img\volunteers-bg.jpg" />
     <Content Include="Index.aspx" />
-    <Content Include="js\GetMessage.js" />
     <Content Include="js\google.js" />
     <Content Include="js\jquery-1.11.2.min.js" />
     <Content Include="js\main.js" />

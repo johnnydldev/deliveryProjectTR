@@ -70,7 +70,8 @@
             
             <!-- Import of JQuery from google API-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-          
+            <script src="js/google.js"></script>
+
           </head>
           <body>
                 
@@ -705,109 +706,109 @@
               
             </section>
             <!-- End nuestra tienda -->
-            
-            
-        <!-- Contacto -->
-        <section id="Contacto">
 
-         <!-- Contact Start -->
-        <div class="container-fluid bg-light py-5">
-            <div class="container py-5">
-                <div class="contact p-5">
+
+            <!-- Contact Start -->
+            <section id="Contacto">
+
+              <div class="container-fluid bg-light py-5">
+                <div class="container py-5">
+                  <div class="contact p-5">
+                    
                     <div class="row g-4">
-                        <div class="col-xl-5">
-                            <h1 class="mb-4">Get in touch</h1>
-                            <p class="mb-4">
-                              <![CDATA[The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. ]]><a class="text-dark fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                            <form>
-                                <div class="row gx-4 gy-3">
-                                    <div class="col-xl-6">
-                                      <input id="nameInput" type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your First Name"></input>
+                      <div class="col-xl-5">
+                        <h1 class="mb-4">Get in touch</h1>
+                        <p class="mb-4">
+                          <![CDATA[The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. ]]><a class="text-dark fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.
+                        </p>
+                        
+                        <form>
+                          <div class="row gx-4 gy-3">
+                            <div class="col-xl-6">
+                              <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your First Name"></input>
                                     </div>
-                                    <div class="col-xl-6">
-                                      <input  id="emailInput" type="email" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Email"></input>
+                            <div class="col-xl-6">
+                              <input type="email" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Email"></input>
                                     </div>
-                                    <div class="col-xl-6">
-                                      <input id="telephoneInput" type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Phone"></input>
+                            <div class="col-xl-6">
+                              <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Your Phone"></input>
                                     </div>
-                                    <div class="col-xl-6">
-                                      <input  id="subjectInput" type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Subject"></input>
+                            <div class="col-xl-6">
+                              <input type="text" class="form-control bg-white border-0 py-3 px-4" placeholder="Subject"></input>
                                     </div>
-                                    <div class="col-12">
-                                        <textarea id="messageInput" class="form-control bg-white border-0 py-3 px-4" rows="7" cols="10" placeholder="Your Message"></textarea>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn-hover-bg btn btn-primary w-100 py-3 px-5" type="submit">Submit</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                      
-                        <div class="col-xl-7">
-                            <div>
-                                <div class="row g-4">
-                                    <div class="col-lg-4">
-                                        <div class="bg-white p-4">
-                                            <i class="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
-                                            <h4>Address</h4>
-                                            <p class="mb-0">
-                                                <xsl:value-of select="branch-info/place/."/>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="bg-white p-4">
-                                            <i class="fas fa-envelope fa-2x text-primary mb-2"></i>
-                                            <h4>Mail Us</h4>
-                                            <p class="mb-0">
-                                                <xsl:value-of select="branch-info/email/."/>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="bg-white p-4">
-                                            <i class="fa fa-phone-alt fa-2x text-primary mb-2"></i>
-                                            <h4>Telephone</h4>
-                                            <p class="mb-0">
-                                              <xsl:value-of select="branch-info/telephone/."/>
-                                            </p>
-                                        </div>
-                                    </div>
-
-
-
-                                  <div data-aos="fade-up">
-                                    <style>
-                                      #map{
-                                      border: 0;
-                                      width: 100%;
-                                      height: 350px;
-                                      }
-                                    </style>
-                                    <div id="google-map">
-                                      <div id="map"></div>
-                                    </div>
-                                    <text id="direction"></text>
-                                    <div class="col-lg-12 margin-bottom-30" id="street" style="height: 400px; width: 100%;"></div>
-                                  </div>
-                                  
-                                  <!--
-                                    <div class="col-lg-12" id="map">
-                                      
-                                        <iframe class="w-100" style="height: 412px; margin-bottom: -6px;" src=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    
-                                    </div>
-                                  -->
-                                  
-                                </div>
+                            <div class="col-12">
+                              <textarea class="form-control bg-white border-0 py-3 px-4" rows="7" cols="10" placeholder="Your Message"></textarea>
                             </div>
+                            <div class="col-12">
+                              <button class="btn-hover-bg btn btn-primary w-100 py-3 px-5" type="submit">Submit</button>
+                            </div>
+                          </div>
+                        </form>
+                        
+                      </div>
+                      
+                      <div class="col-xl-7">
+                        <div>
+                          
+                          <div class="row g-4">
+                            <div class="col-lg-4">
+                              <div class="bg-white p-4">
+                                <i class="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
+                                <h4>Address</h4>
+                                <p class="mb-0">
+                                  <xsl:value-of select="branch-info/place/."/>
+                                </p>
+                              </div>
+                            </div>
+                            
+                            <div class="col-lg-4">
+                              <div class="bg-white p-4">
+                                <i class="fas fa-envelope fa-2x text-primary mb-2"></i>
+                                <h4>Mail Us</h4>
+                                <p class="mb-0">
+                                  <xsl:value-of select="branch-info/email/."/>
+                                </p>
+                              </div>
+                            </div>
+                            
+                            <div class="col-lg-4">
+                              <div class="bg-white p-4">
+                                <i class="fa fa-phone-alt fa-2x text-primary mb-2"></i>
+                                <h4>Telephone</h4>
+                                <p class="mb-0">
+                                  <xsl:value-of select="branch-info/telephone/."/>
+                                </p>
+                              </div>
+                            </div>
+
+                            <div data-aos="fade-up">
+                              <style>
+                                #map{
+                                border: 0;
+                                width: 100%;
+                                height: 350px;
+                                }
+                              </style>
+                              <div id="google-map">
+                                <div id="map"></div>
+                              </div>
+                              <text id="direction"></text>
+                              <div class="col-lg-12 margin-bottom-30" id="street" style="height: 400px; width: 100%;"></div>
+                            </div>
+                            
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        </section>
-        <!-- Contact End -->
+              </div>
+              
+              
+            </section>
+           <!-- Contact End -->
+
+          
 
             <div class="text-center mx-auto pb-5 bg-light" style="max-width: 800px;">
               <h3 class="text-uppercase text-primary">Mini juego</h3>
@@ -1022,9 +1023,7 @@
             <!-- Back to Top -->
             <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
-        
-            
-          
+       
             <!-- JavaScript Libraries -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -1033,8 +1032,7 @@
             <script src="lib/counterup/counterup.min.js"></script>
             <script src="lib/owlcarousel/owl.carousel.min.js"></script>
             <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
-
+            
             <!-- Template Javascript -->
             <script src="js/main.js"></script>
             <script src="js/jquery-1.11.2.min.js"></script>
